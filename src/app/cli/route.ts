@@ -97,7 +97,7 @@ async function renderCli(): Promise<string> {
   lines.push(COLORS.base);
 
   // Avatar block (pixelated)
-  const avatar = await renderAvatarAnsi(24);
+  const avatar = await renderAvatarAnsi(48);
   if (avatar) {
     lines.push(avatar);
     lines.push("");
