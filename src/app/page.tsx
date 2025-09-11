@@ -28,11 +28,11 @@ export default function Home() {
             <li>
               <a
                 className="text-ctp-mauve"
-                href="https://github.com/unsend-dev/unsend"
+                href="https://github.com/usesend/usesend"
                 target="_blank"
                 rel="noreferrer"
               >
-                unsend
+                useSend
               </a>
               {", "}
               an open source email platform
