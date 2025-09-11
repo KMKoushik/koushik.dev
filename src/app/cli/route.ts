@@ -113,7 +113,7 @@ async function renderCli(): Promise<string> {
   // open source
   lines.push(`${COLORS.subtext0}${COLORS.bold}open source${COLORS.reset}`);
   lines.push(
-    `${COLORS.text}- ${COLORS.mauve}unsend${COLORS.reset}${COLORS.text}, an open source email platform${COLORS.reset}`
+    `${COLORS.text}- ${COLORS.mauve}useSend${COLORS.reset}${COLORS.text}, an open source email platform${COLORS.reset}`
   );
   lines.push(
     `${COLORS.text}- ${COLORS.mauve}splitpro${COLORS.reset}${COLORS.text}, an open source splitwise alternative${COLORS.reset}`
