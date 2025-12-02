@@ -3,21 +3,21 @@
 
 /* Minimal, neutral base */
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 /* Force light appearance to avoid dark color mixing */
 :root {
-  color-scheme: dark;
+    color-scheme: system;
 }
 
 /* Link hover underline for all anchors */
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;
-  text-underline-offset: 2px;
+    text-decoration: underline;
+    text-underline-offset: 2px;
 }
