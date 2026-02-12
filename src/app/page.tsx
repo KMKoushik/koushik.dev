@@ -16,7 +16,7 @@ export default function Home() {
           />
           <h1 className="text-3xl text-ctp-mauve mt-8">koushik mohan</h1>
           <p className="">
-            i build apps on weekdays and open source apps on weekends
+            i build stuff
           </p>
         </section>
 

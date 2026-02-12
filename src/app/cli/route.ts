@@ -106,7 +106,7 @@ async function renderCli(): Promise<string> {
   // Header
   lines.push(`${COLORS.mauve}${COLORS.bold}koushik mohan${COLORS.reset}`);
   lines.push(
-    `${COLORS.text}i build apps on weekdays and open source apps on weekends${COLORS.reset}`
+    `${COLORS.text}i build stuff${COLORS.reset}`
   );
   lines.push("");
 
