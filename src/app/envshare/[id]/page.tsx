@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
-import type { GetSecretResponse } from "~/lib/envshare";
+import type { GetSecretResponse } from "~/lib/envshare-shared";
 
 type ViewState = "initial" | "loading" | "revealed" | "error" | "not-found";
 

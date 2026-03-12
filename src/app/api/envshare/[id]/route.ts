@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { getSecret, decrementReads } from "~/lib/envshare";
-import type { GetSecretResponse } from "~/lib/envshare";
+import type { GetSecretResponse } from "~/lib/envshare-shared";
 
 export async function GET(
   _request: Request,

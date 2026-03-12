@@ -1,3 +1,4 @@
+import "server-only";
 import { Redis } from "@upstash/redis";
 
 const url = process.env.STORAGE_KV_REST_API_URL ?? process.env.KV_REST_API_URL;

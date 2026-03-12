@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { TTL_OPTIONS, READ_OPTIONS } from "~/lib/envshare";
+import { TTL_OPTIONS, READ_OPTIONS } from "~/lib/envshare-shared";
 
 // Encrypt content using AES-256-GCM
 async function encryptContent(

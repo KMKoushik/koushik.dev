@@ -1,12 +1,12 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
+import { generateId, storeSecret } from "~/lib/envshare";
 import {
-  generateId,
-  storeSecret,
   TTL_OPTIONS,
   READ_OPTIONS,
-} from "~/lib/envshare";
-import type { CreateSecretRequest, EnvShareSecret } from "~/lib/envshare";
+  type CreateSecretRequest,
+  type EnvShareSecret,
+} from "~/lib/envshare-shared";
 
 export async function POST(request: NextRequest) {
   try {
